@@ -29,7 +29,7 @@ You should create one R script called run_analysis.R that does the following.
     -run_analysis.R : R Script where the Data Set was collected, worked with and cleaned.
     -CodeBook.md : File with additional details describing the data employed and analysis done on this project.
 
-### License:
+### Data Set License:
 
 Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
 
