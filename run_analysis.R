@@ -82,3 +82,7 @@ names(extractedData)<-gsub("\\.\\.", "\\().", names(extractedData))
 ##I melted the entire data set into "activity" and "subject" ids. Then I created a new data set of 180*68 with the mean values with respect to activity and subject variables.
 meltedDataSet<-melt(extractedData, id=c("activity","subject"))
 independentTidyDataSet<-(dcast(meltedDataSet, activity+subject ~ variable,mean))
+
+# Writing the resulted data set to a new txt file
+write.csv(independentTidyDataSet, "independentTidyDataSet.txt", row.names=FALSE)
+
