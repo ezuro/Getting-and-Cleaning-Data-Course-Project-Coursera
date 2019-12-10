@@ -58,6 +58,6 @@ The set of variables that were estimated from these signals are:
 
 -The column names were renamed with more descriptive and readable names. 
 
--Finally, a new indpendent tidy data set was formed with the average of each variable for each activity and each subject.
+-Finally, a new independent tidy data set was formed with the average of each variable for each activity and each subject.
 Information about the study design
 
