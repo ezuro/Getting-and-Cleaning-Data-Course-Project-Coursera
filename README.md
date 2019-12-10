@@ -1,24 +1,20 @@
 # README
 ## Getting-and-Cleaning-Data-Course-Project-Coursera
-Repository including the peer reviewed Getting and Cleaning Data Course project
+Repository including the peer reviewed Getting and Cleaning Data Course project from Coursera. Which purpose is to demonstrate our ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. 
+
+It was used the Human Activity Recognition Using Smartphones Data Set from UCI Machine Learning Repository. See reference:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+Which it was built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 
 
-### The files included in the project's data set are:
-
-    'features.txt': List of all features.
-
-    'activity_labels.txt': Links the class labels with their activity name.
-
-    'train/X_train.txt': Training set.
-
-    'train/y_train.txt': Training labels.
-
-    'test/X_test.txt': Test set.
-
-    'test/y_test.txt': Test labels.
     
 
-### Scripts included
+### In this project you will find the scripts:
+
+    -README.md: Introductory file.
+    -run_analysis.R: R Script where the Data Set was collected, worked with and cleaned.
+    -CodeBook.md: File with additional details describing the data employed and analysis done on this project.
 
 ### License:
 
